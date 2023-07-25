@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <div class="shape">
+        <br>
+        <h1><i>Generate A Shape</i></h1>
+        <br>
+        <p id="para1">Select shape,number of shapes and color</p>
+        <br>
+        <div>
+            <input type="radio" name="name" value="circle" id="circle" checked > Circle
+            <input type="radio" name="name" value="rectangle" id="rectangle"> Rectange
+            <input type="radio" name="name" value="square" id="square"> Square
+        </div>
+        <br>
+        <div>
+            <input type="color" id="color" style="border-radius: 5px;">  Right click and Select the color
+        </div>
+        <br>
+        <div>
+            <input type="number" id="number" name="sh">
+            <button id="button"> Number of Shapes we want to display</button>
+        </div>
+        <br><br>
+    </div>
+    <div class="display">
+        <div class="box" id="box"></div>
+    </div>
+</body>
+</html>
